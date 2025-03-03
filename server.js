@@ -70,11 +70,7 @@ async function handlePushMessage(reqBody) {
         return client.pushMessage(destination, [
             {
                 "type": "text",
-                "text": "ミーティングの時間だよ"
-            },
-            {
-                "type": "text",
-                "text": zoomUrl
+                "text": `ミーティングの時間だよ\n\n${zoomUrl}`
             }
         ])
     } catch (error) {
