@@ -1,13 +1,10 @@
 {
   "name": "line-zoom-bot-kun-notifier",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "author": "YUICHI SUGIYAMA",
-  "license": "MIT",
   "dependencies": {
     "@google-cloud/firestore": "^6.7.0",
     "@line/bot-sdk": "^7.6.2",
